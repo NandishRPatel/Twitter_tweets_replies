@@ -7,10 +7,10 @@ hash_list=Tweets.objects.values_list('Hashtag')
 #print(hash_list)
 # Create your views here.
 
-ckey = "0HbmxMUQ5DczFuKbpUt1WFQA9"
-csecret = "LjC1kTMY3LrnzBX8cMZrhTWLXXDRLBCa4ZSfXMwO42244V6O5U"
-atoken = "2516974466-EyjU0m1wGFYJpYXoi88SGZQTtHk3PEtrkUdE4OK"
-asecret = "VZGEEkH7HiytC3abwrTpTDmONsJ7SWbJkHD8XdjGSSzfF"
+ckey = ""
+csecret = ""
+atoken = ""
+asecret = ""
 auth = tweepy.OAuthHandler(ckey,csecret)
 auth.set_access_token(atoken, asecret)
 api = tweepy.API(auth)
